@@ -31,7 +31,7 @@ install.packages("devtools")
 library(devtools)
 install_github("<the_GitHub_Repository>")
 ```
-See [this link] (http://kbroman.org/pkg_primer/pages/github.html) for more details.
+See [this link](http://kbroman.org/pkg_primer/pages/github.html) for more details.
 
 ## Note for Linux users
 This is where the rubber meets the road. R doesn't have binary repositories for Linux - that means each package has to be built when you install it in Linux. Any C++ libraries have to be recompiled, etc. This takes time - and it may also involve some patience with error messages - and some diligent Google searches (which usually lead you to https://stackoverflow.com/ )
@@ -45,7 +45,7 @@ Included in this directory is an example R script file, ExamplePacketPlot.R. Tak
 
 The script takes the output of a packet capture (pcap) export from Wireshark or Tshark (https://www.wireshark.org/), and graphs it as a network directed graph, as you saw in the Intro video.
 
-If you have Wireshark or Tshark, you can do your own packet capture on the network, export it as pcapfile.csv, and plot it. You can follow directions for exporting pcap data [here](https://www.wireshark.org/docs/wsug_html_chunked/ChIOExportSection.html). Otherwise, a sample file is provided for you - it's a tiny segment of the data from the National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition (MACCDC). The original pcap files (which are WAY too big to plot) are [here] (http://www.netresec.com/?page=MACCDC). Unless you are working on an extremely high-end system with LOTS of RAM and an extremely fast processor, I do NOT recommend trying to analyze one of those entire pcap files all at once. First of all, you won't be able to see anything in all the noise. Second, your performance would be terrible. 
+If you have Wireshark or Tshark, you can do your own packet capture on the network, export it as pcapfile.csv, and plot it. You can follow directions for exporting pcap data [here](https://www.wireshark.org/docs/wsug_html_chunked/ChIOExportSection.html). Otherwise, a sample file is provided for you - it's a tiny segment of the data from the National CyberWatch Mid-Atlantic Collegiate Cyber Defense Competition (MACCDC). The original pcap files (which are WAY too big to plot) are [here](http://www.netresec.com/?page=MACCDC). Unless you are working on an extremely high-end system with LOTS of RAM and an extremely fast processor, I do NOT recommend trying to analyze one of those entire pcap files all at once. First of all, you won't be able to see anything in all the noise. Second, your performance would be terrible. 
 
 For this reason, I have provided a snippet of their pcap file, converted to csv, which displays some interesting activity.
 
