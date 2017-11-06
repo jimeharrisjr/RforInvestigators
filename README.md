@@ -1,5 +1,5 @@
 # RforInvestigators
-Notes, R scripts, practice exercises, etc. for the YouTube Videos (see the [intro video here](https://www.youtube.com/watch?v=wEKVxeIRBXU)
+Notes, R scripts, practice exercises, etc. for the YouTube Videos (see the [intro video here](https://youtu.be/wEKVxeIRBXU)
 
 # What's the purpose of this? 
 
