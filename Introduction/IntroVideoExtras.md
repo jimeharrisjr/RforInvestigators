@@ -1,6 +1,6 @@
 # Exploring Further - Understanding the Video Demos
 
-In the Introduction video, I showed a couple of examples of the types of things you can do with R. Many of these visualizations depend on what R calls "packages." Packages are ways to group R functions you create, and to share them with the world. 
+In the Introduction video, which you can see [here](https://www.youtube.com/watch?v=wEKVxeIRBXU), I showed a couple of examples of the types of things you can do with R. Many of these visualizations depend on what R calls "packages." Packages are ways to group R functions you create, and to share them with the world. 
 
 In the next videos, I'm gong to build up to packages slowly, but if you are a more advanced user, and you want to look ahead, proceed on!
 
