@@ -1,4 +1,5 @@
 # Text 'M' for Murder
+Follow along with the video here: https://youtu.be/8dS5gd8cIxU
 ## The Case:
 - Dave Johnson returned home early from a business trip on October 16, 2017
 - He claims he found his wife Susan on the floor, not moving
