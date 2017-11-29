@@ -1,0 +1,33 @@
+---
+title: "R NFor Investigators and Analysts"
+output:
+  html_document: default
+  html_notebook: default
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+Let's load Susan's mobile phone text records and see what we can find!
+
+```{r}
+# Read the copy of the evidence file
+textData<-read.csv('UnbilledMessaging.csv', header = TRUE, stringsAsFactors = FALSE) #stringsAsFactors is a parameter we aren't ready to deal with yet - just include for now
+
+# Explore the data
+colnames(textData)
+head(textData)
+```
+
+Notice there are two "windows" generated - one for each output command. You can even do plots:
+
+```{r}
+barplot(table(textData$To))
+```
+
+Can you do the rest of the exercise as an R Notebook?
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file).
